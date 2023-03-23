@@ -20,7 +20,7 @@ const AddNote = ({ onAdd }) => {
         value={content}
         onChange={(event) => setContent(event.target.value)}
       />
-      <button class="save-button" type="submit">Save</button>
+      <button type="submit">Save</button>
     </form>
   );
 };
