@@ -6,7 +6,7 @@ import NotesList from '../src/components/NotesList/NotesList';
 import Search from '../src/components/Search/Search';
 function App() {
   return (
-    <Header />
+    <><Header /><AddNote /></>
   );
 }
 
